@@ -4,11 +4,7 @@ const { readFile } = require('./utils');
 let http = require('http');
 
 
-
 let server = http.createServer((req, res) => {
-
-    readFile
-
     if (req.url == '/home') {
         res.writeHead(200, [
             'Content-Type', 'text/html'
