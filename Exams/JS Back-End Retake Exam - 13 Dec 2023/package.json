@@ -1,0 +1,23 @@
+{
+	"name": "js-back-end-retake-exam---13-dec-2023",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	},
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cookie-parser": "^1.4.6",
+		"express": "^4.21.0",
+		"express-handlebars": "^8.0.1",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.6.3"
+	}
+}
